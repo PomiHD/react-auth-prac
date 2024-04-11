@@ -8,5 +8,11 @@
       "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
     }
   ],
-  "users": []
+  "users": [
+    {
+      "email": "wsgddjy@163.com",
+      "password": "$2a$12$oUtVeTeGZBA4U52x.PgF8elx5J4zcYcmH7aIIBEW.eLxGoosYOeiq",
+      "id": "876f56be-de44-4290-86d3-63fea06be1c0"
+    }
+  ]
 }
