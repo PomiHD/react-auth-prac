@@ -16,6 +16,7 @@ import NewsletterPage, { action as newsletterAction } from "./pages/Newsletter";
 import AuthenticationPage, {
   action as authAction,
 } from "./pages/Authentication.tsx";
+import { action as logoutAction } from "./pages/Logout.tsx";
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
         path: "newsletter",
         element: <NewsletterPage />,
         action: newsletterAction,
+      },
+      {
+        path: "logout",
+        action: logoutAction,
       },
     ],
   },
